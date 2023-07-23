@@ -39,6 +39,8 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'djongo',
+    'exam_app',
+    'rest_framework',
     'rest_framework_mongoengine',
     'django.contrib.admin',
     'django.contrib.auth',
