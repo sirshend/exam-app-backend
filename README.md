@@ -2,7 +2,7 @@ made the serialisers correct
 mongod
 mongosh
 brew services start mongodb-community
-mysql -u root -p
+mysql -u root -p(need to use "mysql.server start" before mysql -u root -p. Because mysql.server will start the mysql server and then the mysql -u root -p can access it.)
 mysql.server start
 brew services restart mysql
 correct the mongod line: mongod --dbpath .
