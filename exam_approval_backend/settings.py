@@ -15,6 +15,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 ## need to modify or provide atrleast the data of the database "engine" .. as it was mentioned 
 
 from pathlib import Path
+import os
 import mongoengine
 from mongoengine import connect 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -32,7 +33,7 @@ SECRET_KEY = 'django-insecure-tx(e01n5-9#sz#j6qa=_+^%se0k1md-@t)&b%g%^!crh_1bh*g
 # ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 
 DEBUG = True
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 
 
 # Application definition
