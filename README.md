@@ -11,7 +11,10 @@ correction 2: mongod --auth --dbpath .
 python manage.py runserver
 python manage.py migrate
 brew services stop mongodb-community
+sudo brew services start mongodb-community
 brew services stop mysql
 alternatively mysql can be stopped using by first logging inside the mysql server with mysql -u username -p
 mysql -u root -p
 mysql.server stop
+
+
